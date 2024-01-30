@@ -1,0 +1,5 @@
+[17-May-2023 13:13:37 UTC] PHP Warning:  Undefined variable $mail2 in /home/cmc/public_html/wp-content/themes/cmc/templates-part/contact-me-form.php on line 215
+[17-May-2023 13:13:37 UTC] PHP Fatal error:  Uncaught Error: Call to a member function setFrom() on null in /home/cmc/public_html/wp-content/themes/cmc/templates-part/contact-me-form.php:215
+Stack trace:
+#0 {main}
+  thrown in /home/cmc/public_html/wp-content/themes/cmc/templates-part/contact-me-form.php on line 215

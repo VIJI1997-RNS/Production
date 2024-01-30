@@ -1,0 +1,4 @@
+[ZoneTransfer]
+ZoneId=3
+ReferrerUrl=http://3.109.80.174.nip.io/wp-admin/admin.php?page=wp_file_manager
+HostUrl=http://3.109.80.174.nip.io/wp-admin/admin-ajax.php?cmd=zipdl&download=1&targets%5B%5D=l1_Lw&targets%5B%5D=64ab8194ad301&targets%5B%5D=wordpress.zip&targets%5B%5D=application%2Fzip&action=mk_file_folder_manager&_wpnonce=8838ae23a8&networkhref=&wordpress.zip

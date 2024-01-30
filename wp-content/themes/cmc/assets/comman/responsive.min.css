@@ -1,0 +1,662 @@
+@media screen and (max-width: 1366px) {
+  .his-vis-list li {
+    width: 46.5%;
+  }
+  .same-height-box {
+    padding: 30px 40px 40px;
+  }
+  .facilities-box {
+    width: 19%;
+  }
+  .navbar-expand-lg .navbar-nav .nav-link {
+    padding: 10px 40px;
+  }
+  }
+@media (max-width: 768px) {
+  /* 1. Navbar CSS Start here*/
+  .icon-bar {
+    display: block;
+    width: 30px;
+    height: 3px;
+    background-color: var(--primary-color);
+    border-radius: 6px;
+    margin: 5px 0;
+    transition: all 0.2s;
+  }
+  .top-bar {
+    transform: rotate(45deg);
+    transform-origin: 10% 10%;
+  }
+  .middle-bar {
+    opacity: 0;
+  }
+  .bottom-bar {
+    transform: rotate(-45deg);
+    transform-origin: 10% 90%;
+  }
+  .collapsed .top-bar {
+    transform: rotate(0);
+  }
+  .collapsed .middle-bar {
+    opacity: 1;
+  }
+  .collapsed .bottom-bar {
+    transform: rotate(0);
+  }
+  .navbar-toggler:focus,
+  .navbar-toggler:hover {
+    outline: none;
+  }
+  .dropdown-toggle::after {
+    content: unset;
+  }
+  .navbar-expand-lg .navbar-nav .nav-link {
+    color: var(--primary-color);
+    font-size: 1.3rem;
+    font-weight: 500;
+  }
+  button.btn-close {
+    position: absolute;
+    right: 1rem;
+    top: 0rem;
+    font-size: 2.2rem;
+    display: block;
+    color: var(--secondary-color);
+    background: unset;
+    z-index: 999;
+  }
+  .mobile-header a {
+    color: var(--text-black);
+    text-decoration: none;
+  }
+  .mobile-header .book-appointment a,
+  .mobile-header .give-cmc a {
+    font-size: 0.5rem;
+  }
+  .mobile-header .give-cmc a {
+    color: var(--text-white);
+  }
+  .header-search input.form-control.me-2 {
+    height: 30px;
+  }
+  .header-search button.btn {
+    top: -6px;
+  }
+  .header-search button.btn img {
+    height: 15px;
+  }
+  /* 1. Navbar CSS End here*/
+  /* Banner CSS start Here */
+  .slider-text {
+    max-width: 100%;
+    text-align: center;
+  }
+  .carousel-caption {
+    top: 2rem;
+    right: 1rem;
+    left: 1rem;
+  }
+  .slider-text h1 {
+    font-size: 1.5rem;
+  }
+  .download-app {
+    width: 70%;
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+    bottom: 1rem;
+  }
+  .download-app h6 {
+    display: flex;
+    justify-content: space-around;
+  }
+  .qr-code img {
+    height: 5rem;
+  }
+  .download-app {
+    width: 70%;
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+    bottom: 1rem;
+  }
+  .download-app h6 {
+    display: flex;
+    justify-content: space-around;
+  }
+  .download-btn {
+    margin: 0;
+  }
+  .download-btn a img {
+    padding-bottom: 0.5rem;
+  }
+  .download-app {
+    width: 70%;
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+    bottom: 1rem;
+  }
+  .download-app img {
+  }
+  .download-app h6 {
+    display: flex;
+    justify-content: space-around;
+  }
+  .download-btn {
+    margin: 0;
+  }
+  .download-btn a img {
+    padding-bottom: 0.5rem;
+  }
+  .quote p {
+    font-size: 0.7rem;
+    padding: 0 2rem;
+  }
+  .quote .close-icon {
+    right: 1rem;
+  }
+  .news-mobile {
+    overflow-x: auto;
+    overflow-y: hidden;
+    flex-wrap: nowrap;
+  }
+  .news-mobile::-webkit-scrollbar {
+    display: none;
+  }
+  /* Banner CSS start Here */
+  /* Speaker Section start Here */
+  .speeker-para p {
+    font-size: 0.7rem;
+    line-height: 1.5;
+    margin: 0;
+  }
+  .speeker-box a {
+    padding: 1rem;
+    height: 8rem;
+  }
+  .speeker-box a img {
+    height: 2rem;
+  }
+  /* Speaker Section End Here */
+  /* Service Section Start Here */
+  .service-icon {
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+  }
+  .service-icon img {
+    height: 1.5rem;
+  }
+  .service-text-icon h3 {
+    font-size: 1rem;
+  }
+  .service-text-icon a img {
+    margin-top: 0.5rem;
+  }
+  /* Service Section End Here */
+  /* Story Section start Here */
+  .row.cmc-story-row {
+    width: 100%;
+    left: 0;
+    right: 0;
+    padding: 0;
+    margin: 0;
+    top: 2rem;
+  }
+  .cmc-story-text {
+    margin: 0;
+    padding: 1rem;
+    text-align: center;
+  }
+  .cmc-story-text h2 {
+    font-size: 1.2rem;
+  }
+  .cmc-story-text h4 {
+    font-size: 0.9rem;
+  }
+  .cmc-story-text p {
+    font-size: 0.8rem;
+  }
+  .cmc-story-text a {
+    margin-top: 0;
+  }
+  .row.cmc-icon-row {
+    position: unset;
+    margin-top: 1rem;
+  }
+  .cmc-icon-box {
+    width: 6rem;
+    padding: 1rem 0;
+  }
+  .cmc-icon-box img {
+    height: 2rem;
+  }
+  .cmc-icon-box h2 {
+    font-size: 0.7rem;
+  }
+  /* Story Section End Here */
+  /* CTA Section Start Here */
+  .apply-now-text {
+    width: 100%;
+    top: 1rem;
+  }
+  .apply-now-text h2 {
+    font-size: 1.5rem;
+  }
+  .apply-now-text p {
+    font-size: 0.8rem;
+    padding: 0 1.5rem 0 0;
+  }
+  .apply-now-text a {
+    margin-top: 2rem;
+  }
+  /* CTA Section End Here */
+  /* News Event CSS Start Here */
+  .apply-now-text {
+    width: 100%;
+    top: 1rem;
+  }
+  .apply-now-text h2 {
+    font-size: 1.5rem;
+  }
+  .apply-now-text p {
+    font-size: 0.8rem;
+    padding: 0 1.5rem 0 0;
+  }
+  .apply-now-text a {
+    margin-top: 2rem;
+  }
+  .news-events-head {
+    text-align: center;
+  }
+  .list-news-events a .news-events-text h2 {
+    font-size: 0.8rem;
+  }
+  .news-events-head {
+    margin-top: 3rem;
+  }
+  .explore-events-mobile img {
+    /* width: 6rem;
+    object-fit: cover;
+    min-height: 100%;
+    flex-shrink: 0;
+    height: 6rem; */
+  }
+  ul#menu-main-menu-1 {
+    padding-top: 5rem;
+  }
+  .thank-you-box {
+    width: 90%;
+  }
+  .partner-line a,
+  .partner-line p {
+    text-align: center;
+  }
+  .explore-events-mobile h2 {
+    height: auto;
+    margin: 0.3rem 0 !important;
+    line-height: 1;
+  }
+  .readall-btn-events,
+  .readall-btn-news {
+    text-align: center;
+  }
+  .notable h2 {
+    font-size: 1.3rem;
+    text-align: center;
+    margin-bottom: 1.5rem;
+  }
+  .admissions {
+    margin: 2rem 0;
+  }
+  /* News Event CSS Start Here */
+  /* Footer CSS Start Here */
+  .footer-head br {
+    display: none;
+  }
+  .footer-head .generals br {
+    display: block;
+  }
+  .footer-head .generals br {
+    display: none;
+  }
+  .footer-head .generals {
+    font-size: 0.7rem;
+    margin-bottom: 0;
+    width: 44%;
+    display: inline-block;
+    margin: 1rem 0.3rem;
+  }
+  footer {
+    padding: 1rem;
+  }
+  .footer-head.quick-links-start.quick-links {
+    padding: 2rem 0 0;
+  }
+  .footer-col a {
+    font-size: 0.7rem;
+    padding: 0.3rem 0;
+  }
+  .working-hrs {
+    width: 49%;
+    display: inline-block;
+  }
+  footer h2 {
+    font-size: 1rem;
+  }
+  .working-hrs p {
+    font-size: 0.6rem;
+  }
+  .working-hrs h2 {
+    margin-bottom: 0.8rem;
+  }
+  .row.bottom-footer {
+    text-align: center;
+    margin-top: 2rem;
+  }
+  .copyright-line,
+  .partner-line {
+    text-align: center;
+  }
+  .elective-list li::before {
+    content: "\2022";
+    display: inline-block;
+    /* Needed to add space between the bullet and the text */
+    width: 1em;
+    /* Also needed for space (tweak if needed) */
+    margin-left: -1em;
+    /* Also needed for space (tweak if needed) */
+    font-size: 1.2rem;
+    vertical-align: middle;
+    color: var(--secondary-color);
+  }
+  .courses,
+  .elective {
+    padding: 2rem 0;
+  }
+  .guide-wrapper {
+    margin-top: 2rem;
+  }
+  .courses-link ul {
+    display: block !important;
+    width: 100% !important;
+  }
+  .courses-slider button.owl-prev {
+    position: absolute;
+    top: 40%;
+    left: 0.1rem;
+  }
+  .courses-slider button.owl-next {
+    position: absolute;
+    top: 40%;
+    right: 0.1rem;
+  }
+  .border-right:before {
+    border: 0;
+  }
+  section.inner-banner h1 {
+    font-size: 25px;
+  }
+  .quick-information {
+    padding: 3rem 1rem 0;
+  }
+  .quick-information h2 {
+    margin-top: 2rem;
+  }
+  .our-story img.img-fluid {
+    margin-bottom: 1rem;
+  }
+  .our-story {
+    padding: 0 0 1rem;
+  }
+  .about-research-bg {
+    padding: 3rem 1rem;
+    margin-bottom: 3rem;
+  }
+  .our-story-wrapper a br {
+    display: none;
+  }
+  .our-story-wrapper a {
+    font-size: 1.2rem;
+    line-height: 1.6rem;
+  }
+  .research-content-para {
+    padding: 0rem 0;
+  }
+  .quick-information-box {
+    width: auto;
+    margin-bottom: 0rem;
+  }
+  .feedback {
+    padding: 3rem 0;
+  }
+  .contact-us-wrapper .col-8.col-md-5 {
+    margin-left: auto;
+  }
+  .covid-19 {
+    padding: 0rem 1rem;
+  }
+  .covid-19 ul {
+    column-count: 1;
+    padding: 0 1rem;
+  }
+  .research-content-para {
+    column-count: 1;
+  }
+  section.research-content {
+    padding: 2rem 0rem 0rem;
+  }
+  .cta-btn {
+    column-count: 1;
+  }
+  .faculty-inner-sec .post-info {
+    margin-bottom: 1rem;
+  }
+  .departments-sec .accordion-body {
+    padding: 2rem 0;
+  }
+  .accordion-body ul {
+    margin: 0;
+  }
+  .about-research-bg,
+  .contact-info .container {
+    background-color: #f1f0f0;
+    padding: 2rem 1rem;
+    margin-bottom: 5rem;
+  }
+  .departments-sec .accordion-item button {
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding: 3px 15px;
+  }
+  .research-content-para p strong {
+    font-size: 20px;
+    line-height: 1.7;
+  }
+  .news-content .nav-pills {
+    justify-content: center;
+  }
+  .news-content .nav-pills li {
+    margin-bottom: 1rem;
+  }
+  .news-content .list-news-events a img {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+  .news-content .list-news-events a img {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+  .departments-inner-sec .nav-link,
+  .news-content .nav-link {
+    padding: 0.5rem 1rem;
+    font-size: 14px;
+  }
+  .news-content .form-select {
+    width: 100%;
+    padding: 0.6rem 1rem;
+  }
+  .departments-sec .accordion-body {
+    display: block;
+  }
+  .education-box,
+  .award-box .row {
+    padding: 2rem 1rem 2rem;
+  }
+  .education-slider {
+    padding: 1rem 1.5rem;
+  }
+  .awards-section .main-headings h2 {
+    margin-bottom: 0px;
+  }
+  .our-campuses .card .card-title {
+    padding: 0rem 0 1rem;
+  }
+  .g-4,
+  .gx-4 {
+    --bs-gutter-x: 0;
+  }
+  .publication-slider .owl-nav .owl-prev {
+    position: absolute;
+    top: auto;
+    left: 39%;
+    bottom: -13%;
+  }
+  .publication-slider .owl-nav .owl-next {
+    position: absolute;
+    top: auto;
+    right: 39%;
+    bottom: -13%;
+  }
+  .publication-slider img {
+    width: auto !important;
+    margin-bottom: 1rem;
+  }
+  .award-box h5 {
+    margin-top: 1rem;
+  }
+  .faculty-inner-sec h2 {
+    margin-top: 1rem;
+  }
+  .news-content .row {
+    justify-content: center !important;
+    margin: 0 auto;
+  }
+  .gallery-content a {
+    margin-bottom: 2rem;
+  }
+  .g-5,
+  .gx-5 {
+    --bs-gutter-x: 0;
+  }
+  .g-5,
+  .gy-5 {
+    --bs-gutter-y: 0;
+  }
+  .work-life-img img {
+    padding-right: 0;
+  }
+  .heading-select {
+    display: block;
+  }
+  section.current-openings-section {
+    padding: 0 0;
+  }
+  select.forms-select {
+    padding: 0.5rem 1rem;
+    border-radius: 0.3rem;
+    margin-bottom: 1rem;
+  }
+  .opning-acordion .accordion-button {
+    padding: 1rem 1rem;
+  }
+  .opning-acordion .accordion-button:not(.collapsed)::after {
+    right: 0.5rem;
+    top: 1.3rem;
+  }
+  .opning-acordion .accordion-button::after {
+    right: 0.5rem;
+    top: 1.3rem;
+  }
+  .facilities-box {
+    width: 47.8%;
+  }
+  .friends-vellore li {
+    width: 100%;
+  }
+  section.facilities-section {
+    padding: 2rem 0;
+  }
+  .who-we-are-para p strong {
+    padding-right: 0;
+  }
+  .main-headings.who-we-are-para h2 {
+    margin-bottom: 10px;
+  }
+  .campus-image {
+    margin-bottom: 15px;
+  }
+  section.his-vis-section {
+    background-size: cover;
+    padding: 3rem 0 0;
+  }
+  .his-vis-box {
+    float: left;
+    width: 100%;
+    background: #01206887;
+    padding: 20px 30px;
+    margin-bottom: 40px;
+  }
+  .his-vis-list li {
+    float: left;
+    width: 100%;
+    margin-right: 0;
+    margin-top: 0;
+    color: #fff;
+    text-decoration: underline;
+  }
+  section.green-initiatives {
+    padding: 2rem 0;
+  }
+  .green-initiatives-para {
+    padding: 0rem 0rem;
+  }
+  .green-initiatives-para p {
+    padding-right: 1rem;
+  }
+  .three-boxes-section {
+    padding: 3rem 0;
+  }
+  .same-height-box {
+    padding: 30px 40px 40px;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  .four-zero-four img {
+    width: 100%;
+  }
+  .four-zero-four img {
+    width: 100%;
+    padding: 0 20px;
+  }
+  .whats-new img {
+    top: 0;
+    bottom: unset;
+    right: 0;
+  }
+  section.search-result-section {
+    padding: 5rem 0 4rem;
+    position: relative;
+  }
+  .content.search-box-result {
+    padding: 20px 15px;
+  }
+  .goog-te-gadget .goog-te-combo{	  
+    width: 8rem !important;
+    margin-right: 2rem !important;
+  }
+  .navbar-toggler {
+    padding-left: 2rem;
+}
+  /* Footer CSS Start Here */
+}
